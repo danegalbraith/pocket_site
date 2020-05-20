@@ -156,178 +156,6 @@ nav {
 }
 
 
-
-/* -- TOP SPOTS IN SAVANNAH ------------------
-
-.topSpots {
-    width: 100%;
-    padding: 100px 200px;
-    padding-bottom: 60px;
-    height: auto;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background-color: #604EEC;
-}
-
-.topSpots h3 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    color: white;
-}
-
-.topSpots h4 {
-    font-family: "Nunito", sans-serif;
-    padding-top: 10px;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    color: white;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 1px 1px;
-    grid-template-areas: "one two three four five six seven eight nine";
-  }
-  
-.one {
-    grid-area: one;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-
-.one:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-
-
-
-.two {
-    grid-area: two;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-  
-.two:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-
-.three {
-    grid-area: three;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-  
-.three:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-
-.four {
-    grid-area: four;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-    
-.four:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-  
-.five {
-    grid-area: five;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-        
-.five:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
- 
-.six {
-    grid-area: six;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-        
-.six:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-  
-.seven {
-    grid-area: seven;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-        
-.seven:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-        
-.eight {
-    grid-area: eight;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-        
-.eight:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-    
-.nine {
-    grid-area: nine;
-    padding: 20px;
-    border-radius: 10px;
-    background: #604EEC;
-    }
-
-.nine:hover { 
-    cursor: pointer;
-    background: #4B3BC7;
-    transition: background-color 0.1s ease-in-out;
-    border-radius: 10px;
-    }
-
----------- */
-
-
 /* -- WELCOME TO POCKET ----------------------------- */
 
 .welcome {
@@ -357,39 +185,6 @@ nav {
 }
 
 
-/* -- PARALLAX SECTION ----------------------------- */
-
-.parallaxOne {
-    height: 80vh;
-    background-image: url("sfo.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-}
-
-.parallaxTwo {
-    height: 400px;
-    background-image: url("nyc.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-}
-
-.parallaxThree {
-    height: 400px;
-    background-image: url("aus.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-}
-
-
 /* -- FEATURE ONE ----------------------------- */
 
 /* Create two equal columns that floats next to each other */
@@ -400,6 +195,12 @@ nav {
     vertical-align: bottom;
     padding: 20px;
   }
+
+
+.column img:hover {
+    cursor: pointer;
+    transition: img 1s ease-in-out;
+}
 
 .column h3 {
     font-family: "Nunito", sans-serif;
@@ -454,156 +255,20 @@ nav {
     .nav_links {
     display: none;
     }
+
+    .welcome button {
+        width: 100%;
+        height: 50px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.featureOne {
-    background-color: white;
-    padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px 1px;
-    grid-template-areas: "textArea imgArea";
-  }
-
-.featureOne img {
-    width: 100%;
-}
-  
-.textAreaOne { 
-    grid-area: textArea;
-    padding-right: 50px;
-    }
-  
-.imgAreaOne {
-    grid-area: imgArea;
-    }
-
-
-.featureOne h3 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 800;
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    color: #363636
-}
-
-.featureOne h4 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    color: #363636;
-}
-
-/* -- FEATURE TWO ----------------------------- */
-
-.featureTwo {
-    background-color: white;
-    padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px 1px;
-    grid-template-areas: "textArea imgArea";
-  }
-
-.featureTwo img {
-    width: 100%;
-}
-  
-.textAreaTwo { 
-    grid-area: textArea;
-    padding-right: 50px;
-    }
-  
-.imgAreaTwo {
-    grid-area: imgArea;
-    }
-
-
-.featureTwo h3 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 800;
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    color: #363636
-}
-
-.featureTwo h4 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    color: #363636;
-}
-
-/* -- FEATURE THREE ----------------------------- */
-
-.featureThree {
-    background-color: white;
-    padding: 100px 200px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px 1px;
-    grid-template-areas: "textArea imgArea";
-  }
-
-.featureThree img {
-    width: 100%;
-}
-  
-.textAreaThree { 
-    grid-area: textArea;
-    padding-right: 50px;
-    }
-  
-.imgAreaThree {
-    grid-area: imgArea;
-    }
-
-
-.featureThree h3 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 800;
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    color: #363636
-}
-
-.featureThree h4 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    color: #363636;
-}
 
 
 /* -- PROBLEM STATEMENT ----------------------------- */
 
 .problemStatement {
-    background-color: white;
+    background-color: #EFEFEF;
     padding: 100px 200px;
     align-items: center;
     display: grid;
@@ -646,7 +311,7 @@ nav {
 /* -- MINDSETS ----------------------------- */
 
 .mindsets {
-    background-color: #EFEFEF;
+    background-color: white;
     padding: 100px 200px;
 }
 
@@ -675,7 +340,7 @@ nav {
 /* -- MEET THE TEAM ----------------------------- */
 
 .meetTheTeam {
-    background-color: white;
+    background-color: #EFEFEF;
     padding: 100px 200px;
     align-items: center;
     display: grid;
