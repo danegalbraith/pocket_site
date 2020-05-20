@@ -134,11 +134,15 @@ nav {
     background-repeat: no-repeat;
 }
 
-.backgroundImage {
-    object-fit: cover;
-    position: fixed;
+#backgroundVideo {
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
     z-index: -100;
+    object-fit: cover;
 }
+
 
 .productMock {
     position: absolute;
@@ -262,6 +266,11 @@ nav {
         text-align: left;
         margin-bottom: 10px;
     }
+
+    .meetTeam {
+        padding: 40px;
+    }
+
   }
 
 
@@ -311,12 +320,18 @@ nav {
 /* -- MINDSETS ----------------------------- */
 
 .mindsets {
-    background-color: white;
-    padding: 100px 200px;
+    background-color: #EFEFEF;
+    padding: 100px;
+}
+
+.meetTeam {
+    padding-left: 20px;
+    padding-right:20px;
 }
 
 
-.mindsets h3 {
+
+.row h3 {
     font-family: "Nunito", sans-serif;
     font-weight: 800;
     font-size: 22px;
@@ -324,7 +339,7 @@ nav {
     color: #363636
 }
 
-.mindsets h4 {
+.row h4 {
     font-family: "Nunito", sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -332,8 +347,17 @@ nav {
     color: #363636;
 }
 
-.mindsets img {
-    max-width: 100%;
+
+.column a {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #363636;
+}
+
+.mindsets button {
+    margin-right: 10px;
 }
 
 
